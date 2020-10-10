@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      initialRoute: 'objetivos',
+      initialRoute: 'login',
       routes: {
         'home'      : (BuildContext context) => HomePage(),
         'login'     : (BuildContext context) => LoginPage(),
